@@ -40,6 +40,7 @@ class CentralCorridor < Scene
     puts "You enter the central corridor and see an uncatalogued lifeform standing"
     puts "in the way of the armoury. The creature has long skin and a faint beefy smell."
     puts "It is reaching for a thin rod attached to its waist."
+    puts ">"
 
     action = $stdin.gets.chomp
     if action == "shoot"
